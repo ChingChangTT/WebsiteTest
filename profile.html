@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personality Showcase - Page 4</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="#" class="brand">
+      <img src="./Photo/logo.png" alt="Flowbite Logo" class="logo" />
+    </a>
+    <div class="navbar-menu" id="navbar-menu">
+      <ul class="navbar-list">
+        <li><a href="mainpage.html" class="navbar-link">Home</a></li>
+        <li><a href="AboutMe.html" class="navbar-link">About</a></li>
+        <li>
+          <a href="knowledge.html" class="navbar-link active">Knowledge</a>
+        </li>
+        <li><a href="contactUs.html" class="navbar-link">Contact</a></li>
+      </ul>
+    </div>
+    <button class="btn-primary"><a href="profile.html">Profile</a></button>
+  </nav>
+  <section class="profile-section">
+            <div class="profile-header">
+                <h1 class="profile-title">Profile</h1>
+                <h2 class="profile-subtitle">Create Profile</h2>
+                <form>
+                    <!-- Cover Image -->
+                    <div class="cover-image">
+                        <!-- Profile Image -->
+                        <div class="profile-image">
+                            <div class="upload-icon">
+                                <input type="file" name="profile" id="upload_profile" hidden required>
+                                <label for="upload_profile">
+                                    <svg class="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z"></path>
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0ZM18.75 10.5h.008v.008h-.008V10.5Z"></path>
+                                    </svg>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="cover-upload">
+                            <input type="file" name="profile" id="upload_cover" hidden required>
+                            <label for="upload_cover" class="cover-label">
+                                Cover
+                                <svg class="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0ZM18.75 10.5h.008v.008h-.008V10.5Z"></path>
+                                </svg>
+                            </label>
+                        </div>
+                    </div>
+                    <h2 class="upload-prompt">Upload Profile and Cover Image</h2>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for="" class="input-label">First Name</label>
+                            <input type="text" class="input-field" placeholder="First Name">
+                        </div>
+                        <div class="input-group">
+                            <label for="" class="input-label">Last Name</label>
+                            <input type="text" class="input-field" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <h3 class="input-label">Sex</h3>
+                            <select class="input-field">
+                                <option disabled value="">Select Sex</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <h3 class="input-label">Date Of Birth</h3>
+                            <input type="date" class="input-field">
+                        </div>
+                    </div>
+                    <div class="submit-button">
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </div>
+                </form>
+</section>
+
+</body>
+</html>
